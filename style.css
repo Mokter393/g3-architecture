@@ -134,3 +134,95 @@
     line-height: 26px;
     font-weight: 400;
 }
+
+.main-feature{
+    display: flex;
+    justify-content: center;
+    margin: 130px 50px;
+}
+
+.main-feature-info{
+    margin-right: 73px;
+    width: 586px;
+    height: 982px;
+}
+
+.main-feature-title>h1{
+    border-left: 5px solid orange;
+    padding-left: 20px;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.main-feature-title>p{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.feature-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 30px;
+    width: 514px;
+    height: 111px;
+}
+
+.feature-item>h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-item>p{
+    color: #727272;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.main-feature-photo{
+    margin-left: 73px;
+    position: relative;
+}
+
+.main-feature-photo>img{
+    width: 100%;
+}
+
+.btn-primary-2{
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 85%;
+    left: -80%;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.btn-primary-2 .btn-10year{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.btn-primary-2 .btn-experience{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
