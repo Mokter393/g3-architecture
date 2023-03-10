@@ -32,7 +32,7 @@
 }
 
 .logo>h2{
-    font-size: 45px;
+    font-size: 2.81em;
     font-weight: 700;
 }
 
@@ -214,13 +214,13 @@
     color: #fff;
     text-decoration: none;
     text-align: center;
-    font-size: 65px;
+    font-size: 4em;
     font-weight: 700;
     margin-bottom: 70px;
 }
 
 .btn-primary-2 .btn-experience{
-    font-size: 25px;
+    font-size: 1.56em;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
@@ -316,3 +316,88 @@
     text-align: center;
     color: #424242;
 }
+
+
+.hide{
+    display: none;
+}
+
+/************************
+ MEDIA QUARY FOR MOBILE
+ *************************/
+
+ @media only screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+    }
+    .menu>ul>li {
+        margin-left: 15px;
+ }
+ .quickListFeature{
+    flex-direction: column;
+ }
+
+ .quickListGalaryContainer{
+    grid-template-columns: repeat(1, 1fr);
+ }
+
+ .quickListInfo{
+    margin-top: 50px;
+ }
+
+ .main-feature{
+    flex-direction: column;
+ }
+
+ .btn-primary-2{
+    width: 90%;
+    height: 100px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-feature-info{
+    margin-right: 53px;
+    width: 100%;
+    height: 982px;
+}
+
+.feature-item{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+
+.main-feature-photo{
+    display: none;
+}
+
+.some-facts-container{
+    flex-direction: column;
+}
+
+.some-facts-item{
+    margin-bottom: 20px;
+}
+
+.sponsors-item-container{
+    flex-direction: column;
+}
+
+.sponsors-item{
+    margin-bottom: 50px;
+}
+
+.footer-container{
+    width: 100%;
+}
+
+ }
