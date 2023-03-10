@@ -262,6 +262,14 @@
     border-radius: 8px;
     text-align: center;
     line-height: 40px;
+    transition: width 1s, height 1s, ease-in-out 1s;
+}
+
+.some-facts-item:hover{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    border: 3px solid #FF900E;
 }
 
 .some-facts-item>h2{
