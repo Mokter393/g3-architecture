@@ -229,6 +229,8 @@
 
 .some-facts{
     margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
 }
 .some-facts-info{
     margin: 130px 100px;
@@ -331,7 +333,7 @@
 }
 
 /************************
- MEDIA QUARY FOR MOBILE
+ MEDIA QUERY FOR MOBILE
  *************************/
 
  @media only screen and (max-width: 576px) {
@@ -353,6 +355,7 @@
 
  .quickListInfo{
     margin-top: 50px;
+    margin-left: 0px;
  }
 
  .main-feature{
@@ -388,16 +391,34 @@
     display: none;
 }
 
+.some-facts{
+    margin-top: 200px;
+}
+
+.some-facts-info{
+    margin: 0px 40px;
+    text-align: center;
+}
+
 .some-facts-container{
     flex-direction: column;
+    margin: 0px 0px;
 }
 
 .some-facts-item{
     margin-bottom: 20px;
 }
 
+.some-facts-info>p {
+    margin-bottom: 60px;
+ }
+
 .sponsors-item-container{
     flex-direction: column;
+}
+
+.sponsors-info{
+    margin: 0px 25px;
 }
 
 .sponsors-item{
@@ -408,4 +429,4 @@
     width: 100%;
 }
 
- }
+}
